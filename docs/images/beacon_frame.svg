@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="490" viewBox="0 0 1000 490" role="img" aria-label="What is inside a beacon frame (real example)">
+<title>What is inside a beacon frame (real example)</title>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#57606a"/>
+  </marker>
+</defs>
+<rect x="0.75" y="0.75" width="998.5" height="488.5" rx="16" fill="#ffffff" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="500.0" y="44" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="26" font-weight="bold" fill="#1f2328" text-anchor="middle">What is inside a beacon frame</text>
+<text x="500.0" y="71" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="14.5" font-weight="normal" fill="#59636e" text-anchor="middle">A real beacon decoded from data/sample_capture_ch6.mat (364 bytes, sent at 11 Mbps)</text>
+<text x="24" y="112" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="14" font-weight="bold" fill="#59636e" text-anchor="start">MAC header (24 bytes)</text>
+<rect x="24" y="122" width="128" height="96" rx="0" fill="#fff1e5" stroke="#bc4c00" stroke-width="1.4"/>
+<text x="88.0" y="144" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="bold" fill="#bc4c00" text-anchor="middle">Frame Control</text>
+<text x="88.0" y="162" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="11.5" font-weight="normal" fill="#59636e" text-anchor="middle">2 bytes</text>
+<text x="88.0" y="185" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="normal" fill="#1f2328" text-anchor="middle">80 00</text>
+<text x="88.0" y="202" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="12" font-weight="normal" fill="#1f2328" text-anchor="middle">= beacon</text>
+<rect x="152" y="122" width="96" height="96" rx="0" fill="#f6f8fa" stroke="#8c959f" stroke-width="1.4"/>
+<text x="200.0" y="144" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="bold" fill="#1f2328" text-anchor="middle">Duration</text>
+<text x="200.0" y="162" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="11.5" font-weight="normal" fill="#59636e" text-anchor="middle">2 bytes</text>
+<text x="200.0" y="185" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="normal" fill="#1f2328" text-anchor="middle">00 00</text>
+<rect x="248" y="122" width="212" height="96" rx="0" fill="#f6f8fa" stroke="#8c959f" stroke-width="1.4"/>
+<text x="354.0" y="144" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="bold" fill="#1f2328" text-anchor="middle">Address 1</text>
+<text x="354.0" y="162" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="11.5" font-weight="normal" fill="#59636e" text-anchor="middle">6 bytes</text>
+<text x="354.0" y="185" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="normal" fill="#1f2328" text-anchor="middle">ff:ff:ff:ff:ff:ff</text>
+<text x="354.0" y="202" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="12" font-weight="normal" fill="#1f2328" text-anchor="middle">= everyone</text>
+<rect x="460" y="122" width="188" height="96" rx="0" fill="#f6f8fa" stroke="#8c959f" stroke-width="1.4"/>
+<text x="554.0" y="144" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="bold" fill="#1f2328" text-anchor="middle">Address 2</text>
+<text x="554.0" y="162" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="11.5" font-weight="normal" fill="#59636e" text-anchor="middle">6 bytes</text>
+<text x="554.0" y="185" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="normal" fill="#1f2328" text-anchor="middle">0a:7b:c8:a9:69:9e</text>
+<text x="554.0" y="202" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="12" font-weight="normal" fill="#1f2328" text-anchor="middle">= sender</text>
+<rect x="648" y="122" width="236" height="96" rx="0" fill="#fff1e5" stroke="#bc4c00" stroke-width="1.4"/>
+<text x="766.0" y="144" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="bold" fill="#bc4c00" text-anchor="middle">Address 3 = BSSID</text>
+<text x="766.0" y="162" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="11.5" font-weight="normal" fill="#59636e" text-anchor="middle">6 bytes</text>
+<text x="766.0" y="185" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="normal" fill="#1f2328" text-anchor="middle">0a:7b:c8:a9:69:9e</text>
+<text x="766.0" y="202" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="12" font-weight="normal" fill="#1f2328" text-anchor="middle">= network MAC address</text>
+<rect x="884" y="122" width="92" height="96" rx="0" fill="#f6f8fa" stroke="#8c959f" stroke-width="1.4"/>
+<text x="930.0" y="144" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="bold" fill="#1f2328" text-anchor="middle">Sequence</text>
+<text x="930.0" y="162" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="11.5" font-weight="normal" fill="#59636e" text-anchor="middle">2 bytes</text>
+<text x="930.0" y="185" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="normal" fill="#1f2328" text-anchor="middle">e0 0c</text>
+<text x="24" y="262" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="14" font-weight="bold" fill="#59636e" text-anchor="start">Frame body (fixed fields + elements) and FCS</text>
+<rect x="24" y="272" width="112" height="96" rx="0" fill="#f6f8fa" stroke="#8c959f" stroke-width="1.4"/>
+<text x="80.0" y="294" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="bold" fill="#1f2328" text-anchor="middle">Timestamp</text>
+<text x="80.0" y="312" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="11.5" font-weight="normal" fill="#59636e" text-anchor="middle">8 bytes</text>
+<text x="80.0" y="335" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="normal" fill="#1f2328" text-anchor="middle">5b b3 ... 00</text>
+<text x="80.0" y="352" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="12" font-weight="normal" fill="#1f2328" text-anchor="middle">AP clock in µs</text>
+<rect x="136" y="272" width="144" height="96" rx="0" fill="#f6f8fa" stroke="#8c959f" stroke-width="1.4"/>
+<text x="208.0" y="294" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="bold" fill="#1f2328" text-anchor="middle">Beacon interval</text>
+<text x="208.0" y="312" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="11.5" font-weight="normal" fill="#59636e" text-anchor="middle">2 bytes</text>
+<text x="208.0" y="335" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="normal" fill="#1f2328" text-anchor="middle">64 00</text>
+<text x="208.0" y="352" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="12" font-weight="normal" fill="#1f2328" text-anchor="middle">= 100 TU (102.4 ms)</text>
+<rect x="280" y="272" width="96" height="96" rx="0" fill="#f6f8fa" stroke="#8c959f" stroke-width="1.4"/>
+<text x="328.0" y="294" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="bold" fill="#1f2328" text-anchor="middle">Capability</text>
+<text x="328.0" y="312" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="11.5" font-weight="normal" fill="#59636e" text-anchor="middle">2 bytes</text>
+<text x="328.0" y="335" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="normal" fill="#1f2328" text-anchor="middle">31 14</text>
+<rect x="376" y="272" width="176" height="96" rx="0" fill="#fff1e5" stroke="#bc4c00" stroke-width="1.4"/>
+<text x="464.0" y="294" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="bold" fill="#bc4c00" text-anchor="middle">SSID element</text>
+<text x="464.0" y="312" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="11.5" font-weight="normal" fill="#59636e" text-anchor="middle">ID 0, length 7</text>
+<text x="464.0" y="335" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="normal" fill="#1f2328" text-anchor="middle">65 64 75 ... 6d</text>
+<text x="464.0" y="352" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="12" font-weight="normal" fill="#1f2328" text-anchor="middle">= "eduroam"</text>
+<rect x="552" y="272" width="108" height="96" rx="0" fill="#f6f8fa" stroke="#8c959f" stroke-width="1.4"/>
+<text x="606.0" y="294" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="bold" fill="#1f2328" text-anchor="middle">Rates</text>
+<text x="606.0" y="312" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="11.5" font-weight="normal" fill="#59636e" text-anchor="middle">ID 1, length 7</text>
+<text x="606.0" y="335" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="normal" fill="#1f2328" text-anchor="middle">96 18 ... 6c</text>
+<text x="606.0" y="352" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="12" font-weight="normal" fill="#1f2328" text-anchor="middle">= 11-54 Mbps</text>
+<rect x="660" y="272" width="136" height="96" rx="0" fill="#fff1e5" stroke="#bc4c00" stroke-width="1.4"/>
+<text x="728.0" y="294" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="bold" fill="#bc4c00" text-anchor="middle">DS parameter</text>
+<text x="728.0" y="312" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="11.5" font-weight="normal" fill="#59636e" text-anchor="middle">ID 3, length 1</text>
+<text x="728.0" y="335" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="normal" fill="#1f2328" text-anchor="middle">06</text>
+<text x="728.0" y="352" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="12" font-weight="normal" fill="#1f2328" text-anchor="middle">= channel 6</text>
+<rect x="796" y="272" width="84" height="96" rx="0" fill="#f6f8fa" stroke="#8c959f" stroke-width="1.4"/>
+<text x="838.0" y="294" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="bold" fill="#1f2328" text-anchor="middle">More</text>
+<text x="838.0" y="312" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="11.5" font-weight="normal" fill="#59636e" text-anchor="middle">elements</text>
+<text x="838.0" y="335" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="normal" fill="#1f2328" text-anchor="middle">...</text>
+<rect x="880" y="272" width="96" height="96" rx="0" fill="#fff1e5" stroke="#bc4c00" stroke-width="1.4"/>
+<text x="928.0" y="294" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="bold" fill="#bc4c00" text-anchor="middle">FCS</text>
+<text x="928.0" y="312" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="11.5" font-weight="normal" fill="#59636e" text-anchor="middle">4 bytes</text>
+<text x="928.0" y="335" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="normal" fill="#1f2328" text-anchor="middle">8e 65 28 76</text>
+<text x="928.0" y="352" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="12" font-weight="normal" fill="#1f2328" text-anchor="middle">= CRC-32</text>
+<text x="24" y="396" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13.5" font-weight="normal" fill="#1f2328" text-anchor="start">The “More” elements in this beacon: country (IN), security (RSN), Wi-Fi 4 and Wi-Fi 6</text>
+<text x="24" y="416" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13.5" font-weight="normal" fill="#1f2328" text-anchor="start">capabilities and vendor data. Multi-byte numbers are little-endian: 64 00 means 0x0064 = 100.</text>
+<rect x="24" y="446" width="18" height="18" rx="3" fill="#fff1e5" stroke="#bc4c00" stroke-width="1.4"/>
+<text x="50" y="460" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13.5" font-weight="normal" fill="#1f2328" text-anchor="start">read by this project</text>
+<rect x="230" y="446" width="18" height="18" rx="3" fill="#f6f8fa" stroke="#8c959f" stroke-width="1.4"/>
+<text x="256" y="460" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13.5" font-weight="normal" fill="#1f2328" text-anchor="start">skipped</text>
+<text x="976" y="460" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13.5" font-weight="normal" fill="#59636e" text-anchor="end">1 TU (time unit) = 1024 µs</text>
+</svg>

@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="938" viewBox="0 0 1000 938" role="img" aria-label="Inside the two receivers: OFDM (802.11a/g) and DSSS / CCK (802.11b)">
+<title>Inside the two receivers: OFDM (802.11a/g) and DSSS / CCK (802.11b)</title>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#57606a"/>
+  </marker>
+</defs>
+<rect x="0.75" y="0.75" width="998.5" height="936.5" rx="16" fill="#ffffff" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="500.0" y="46" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="26" font-weight="bold" fill="#1f2328" text-anchor="middle">Inside the two receivers</text>
+<text x="500.0" y="73" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="14.5" font-weight="normal" fill="#59636e" text-anchor="middle">Both turn raw I/Q samples into the bytes of a Wi-Fi frame. Only frames with a correct CRC-32 are kept.</text>
+<rect x="230" y="94" width="540" height="44" rx="22" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="500.0" y="122" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="14.5" font-weight="bold" fill="#1f2328" text-anchor="middle">Raw I/Q samples from the Pluto (20 million per second)</text>
+<rect x="24" y="176" width="464" height="74" rx="14" fill="#ddf4ff" stroke="#0969da" stroke-width="1.8"/>
+<text x="42" y="206" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="18" font-weight="bold" fill="#0969da" text-anchor="start">OFDM receiver</text>
+<rect x="352.234375" y="188" width="121.765625" height="26" rx="13" fill="#ffffff" stroke="#0969da" stroke-width="1.2"/>
+<text x="413.1171875" y="205.5" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="13" font-weight="bold" fill="#0969da" text-anchor="middle">wifi_rx_ref.m</text>
+<text x="42" y="232" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13.5" font-weight="normal" fill="#1f2328" text-anchor="start">802.11a/g frames, 6-54 Mbps (2.4 and 5 GHz)</text>
+<rect x="512" y="176" width="464" height="74" rx="14" fill="#fbefff" stroke="#8250df" stroke-width="1.8"/>
+<text x="530" y="206" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="18" font-weight="bold" fill="#8250df" text-anchor="start">DSSS / CCK receiver</text>
+<rect x="832.40625" y="188" width="129.59375" height="26" rx="13" fill="#ffffff" stroke="#8250df" stroke-width="1.2"/>
+<text x="897.203125" y="205.5" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="13" font-weight="bold" fill="#8250df" text-anchor="middle">wifi_dsss_rx.m</text>
+<text x="530" y="232" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13.5" font-weight="normal" fill="#1f2328" text-anchor="start">802.11b frames, 1 / 5.5 / 11 Mbps (2.4 GHz)</text>
+<path d="M 500.0 138 L 500.0 150 L 256.0 150 L 256.0 172" fill="none" stroke="#57606a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 500.0 138 L 500.0 150 L 744.0 150 L 744.0 172" fill="none" stroke="#57606a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<line x1="256.0" y1="252" x2="256.0" y2="272" stroke="#57606a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="24" y="276" width="464" height="60" rx="12" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+<circle cx="48" cy="306.0" r="13" fill="#0969da" stroke="none" stroke-width="1.5"/>
+<text x="48" y="311.0" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+<text x="72" y="301" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="15" font-weight="bold" fill="#1f2328" text-anchor="start">Find the start of a frame</text>
+<text x="72" y="321" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="normal" fill="#3d444d" text-anchor="start">The short training field repeats every 16 samples.</text>
+<line x1="256.0" y1="338" x2="256.0" y2="352" stroke="#57606a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="24" y="356" width="464" height="60" rx="12" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+<circle cx="48" cy="386.0" r="13" fill="#0969da" stroke="none" stroke-width="1.5"/>
+<text x="48" y="391.0" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
+<text x="72" y="381" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="15" font-weight="bold" fill="#1f2328" text-anchor="start">Correct the frequency offset (CFO)</text>
+<text x="72" y="401" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="normal" fill="#3d444d" text-anchor="start">The two radios never have exactly the same frequency.</text>
+<line x1="256.0" y1="418" x2="256.0" y2="432" stroke="#57606a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="24" y="436" width="464" height="60" rx="12" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+<circle cx="48" cy="466.0" r="13" fill="#0969da" stroke="none" stroke-width="1.5"/>
+<text x="48" y="471.0" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
+<text x="72" y="461" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="15" font-weight="bold" fill="#1f2328" text-anchor="start">Exact timing + channel estimate</text>
+<text x="72" y="481" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="normal" fill="#3d444d" text-anchor="start">Uses the two long training symbols.</text>
+<line x1="256.0" y1="498" x2="256.0" y2="512" stroke="#57606a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="24" y="516" width="464" height="60" rx="12" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+<circle cx="48" cy="546.0" r="13" fill="#0969da" stroke="none" stroke-width="1.5"/>
+<text x="48" y="551.0" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">4</text>
+<text x="72" y="541" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="15" font-weight="bold" fill="#1f2328" text-anchor="start">Read the SIGNAL field</text>
+<text x="72" y="561" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="normal" fill="#3d444d" text-anchor="start">Data rate (6-54 Mbps) and frame length.</text>
+<line x1="256.0" y1="578" x2="256.0" y2="592" stroke="#57606a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="24" y="596" width="464" height="60" rx="12" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+<circle cx="48" cy="626.0" r="13" fill="#0969da" stroke="none" stroke-width="1.5"/>
+<text x="48" y="631.0" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">5</text>
+<text x="72" y="621" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="15" font-weight="bold" fill="#1f2328" text-anchor="start">Demodulate every OFDM symbol</text>
+<text x="72" y="641" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="normal" fill="#3d444d" text-anchor="start">FFT, equalise, fix the phase with 4 pilots, soft-demap.</text>
+<line x1="256.0" y1="658" x2="256.0" y2="672" stroke="#57606a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="24" y="676" width="464" height="60" rx="12" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+<circle cx="48" cy="706.0" r="13" fill="#0969da" stroke="none" stroke-width="1.5"/>
+<text x="48" y="711.0" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">6</text>
+<text x="72" y="701" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="15" font-weight="bold" fill="#1f2328" text-anchor="start">Undo the coding and descramble</text>
+<text x="72" y="721" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="normal" fill="#3d444d" text-anchor="start">De-interleave, de-puncture, Viterbi decoder -&gt; bytes.</text>
+<line x1="744.0" y1="252" x2="744.0" y2="272" stroke="#57606a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="512" y="276" width="464" height="60" rx="12" fill="#ffffff" stroke="#8250df" stroke-width="1.5"/>
+<circle cx="536" cy="306.0" r="13" fill="#8250df" stroke="none" stroke-width="1.5"/>
+<text x="536" y="311.0" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+<text x="560" y="301" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="15" font-weight="bold" fill="#1f2328" text-anchor="start">Find bursts of energy</text>
+<text x="560" y="321" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="normal" fill="#3d444d" text-anchor="start">Parts of the recording where something was sent.</text>
+<line x1="744.0" y1="338" x2="744.0" y2="352" stroke="#57606a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="512" y="356" width="464" height="60" rx="12" fill="#ffffff" stroke="#8250df" stroke-width="1.5"/>
+<circle cx="536" cy="386.0" r="13" fill="#8250df" stroke="none" stroke-width="1.5"/>
+<text x="536" y="391.0" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
+<text x="560" y="381" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="15" font-weight="bold" fill="#1f2328" text-anchor="start">Correlate with the Barker code</text>
+<text x="560" y="401" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="normal" fill="#3d444d" text-anchor="start">11 chips per symbol: one peak every microsecond.</text>
+<line x1="744.0" y1="418" x2="744.0" y2="432" stroke="#57606a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="512" y="436" width="464" height="60" rx="12" fill="#ffffff" stroke="#8250df" stroke-width="1.5"/>
+<circle cx="536" cy="466.0" r="13" fill="#8250df" stroke="none" stroke-width="1.5"/>
+<text x="536" y="471.0" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
+<text x="560" y="461" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="15" font-weight="bold" fill="#1f2328" text-anchor="start">Lock the timing + fix the CFO</text>
+<text x="560" y="481" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="normal" fill="#3d444d" text-anchor="start">Follow the best sample of every symbol.</text>
+<line x1="744.0" y1="498" x2="744.0" y2="512" stroke="#57606a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="512" y="516" width="464" height="60" rx="12" fill="#ffffff" stroke="#8250df" stroke-width="1.5"/>
+<circle cx="536" cy="546.0" r="13" fill="#8250df" stroke="none" stroke-width="1.5"/>
+<text x="536" y="551.0" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">4</text>
+<text x="560" y="541" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="15" font-weight="bold" fill="#1f2328" text-anchor="start">DBPSK: bits from phase jumps</text>
+<text x="560" y="561" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="normal" fill="#3d444d" text-anchor="start">A 180 degree jump = 1, no jump = 0; then descramble.</text>
+<line x1="744.0" y1="578" x2="744.0" y2="592" stroke="#57606a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="512" y="596" width="464" height="60" rx="12" fill="#ffffff" stroke="#8250df" stroke-width="1.5"/>
+<circle cx="536" cy="626.0" r="13" fill="#8250df" stroke="none" stroke-width="1.5"/>
+<text x="536" y="631.0" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">5</text>
+<text x="560" y="621" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="15" font-weight="bold" fill="#1f2328" text-anchor="start">Find the SFD and the PLCP header</text>
+<text x="560" y="641" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="normal" fill="#3d444d" text-anchor="start">Start pattern 0xF3A0, then rate, length and CRC-16.</text>
+<line x1="744.0" y1="658" x2="744.0" y2="672" stroke="#57606a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="512" y="676" width="464" height="60" rx="12" fill="#ffffff" stroke="#8250df" stroke-width="1.5"/>
+<circle cx="536" cy="706.0" r="13" fill="#8250df" stroke="none" stroke-width="1.5"/>
+<text x="536" y="711.0" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">6</text>
+<text x="560" y="701" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="15" font-weight="bold" fill="#1f2328" text-anchor="start">Read the payload -&gt; bytes</text>
+<text x="560" y="721" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="normal" fill="#3d444d" text-anchor="start">1 Mbps DBPSK, or 5.5 / 11 Mbps CCK (code-word match).</text>
+<path d="M 256.0 738 L 256.0 750 L 280.0 750 L 280.0 766" fill="none" stroke="#57606a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 744.0 738 L 744.0 750 L 720.0 750 L 720.0 766" fill="none" stroke="#57606a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="220.0" y="770" width="560" height="56" rx="14" fill="#dafbe1" stroke="#1a7f37" stroke-width="1.8"/>
+<text x="500.0" y="794" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="15" font-weight="bold" fill="#1a7f37" text-anchor="middle">CRC-32 check (the FCS at the end of the frame)</text>
+<text x="500.0" y="814" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="normal" fill="#3d444d" text-anchor="middle">Wrong CRC = damaged frame = thrown away</text>
+<line x1="500.0" y1="828" x2="500.0" y2="852" stroke="#57606a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="220.0" y="856" width="560" height="56" rx="14" fill="#fff1e5" stroke="#bc4c00" stroke-width="1.8"/>
+<text x="500.0" y="880" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="15" font-weight="bold" fill="#bc4c00" text-anchor="middle">Beacon / probe-response parser (parse_mgmt)</text>
+<text x="500.0" y="900" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif" font-size="13" font-weight="normal" fill="#3d444d" text-anchor="middle">SSID (network name), BSSID (MAC address), channel</text>
+</svg>

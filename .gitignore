@@ -1,0 +1,18 @@
+# Files the code writes into the folder you run it from
+# (repository root or src/), so they do not end up in Git by mistake
+/aps_found.mat
+/src/aps_found.mat
+/channel_graph_*.png
+/src/channel_graph_*.png
+/cap_ch*.mat
+/src/cap_ch*.mat
+
+# MATLAB / Octave temporary files
+*.asv
+*.m~
+octave-workspace
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini

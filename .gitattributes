@@ -1,0 +1,10 @@
+# Normalise line endings of text files
+* text=auto
+
+# MATLAB code: show the language correctly on GitHub and use the MATLAB diff driver
+*.m    text diff=matlab linguist-language=MATLAB
+
+# Binary data
+*.mat  binary
+*.dat  binary
+*.png  binary
